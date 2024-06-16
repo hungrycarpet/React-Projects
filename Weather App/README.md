@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Weather Application is a sleek and user-friendly web application designed to provide you with accurate and up-to-date weather information. Built using the power of React, JavaScript, HTML, CSS, and JSX, this application offers a beautiful interface that allows users to obtain weather-related information for any desired location. The Weather Application provides essential information such as place, country, day and time, temperature, and overall weather conditions (e.g., haze, clouds, sunny). 
 
-## Available Scripts
+Users can input the name of the place they want to see the weather for, and the application queries the OpenWeatherMap API in the backend, reflecting the information in a visually appealing manner. Based on the weather of the searched place, the background of the web application changes to help the user get a better feel of the weather conditions.
 
-In the project directory, you can run:
+# Features
+* **Elegant User Interface**: Enjoy a clean and modern design that enhances user experience and makes checking the weather enjoyable.
+* **Weather Information**: Quickly view the weather by entering the name of any place. Information includes place, country, day and time, temperature, and overall weather conditions.
+* **Dynamic Background**: The background of the application changes based on the weather of the searched place, providing a more immersive experience.
+* **Input Space**: An intuitive input space is provided for users to enter the name of the place they want to see the weather for.
+* **Responsive Design**: The application is fully responsive, ensuring a seamless experience on both mobile devices and desktop computers.
+* **Error Handling**: Robust error handling ensures that the application runs smoothly, providing a smooth and error-free experience.
 
-### `npm start`
+# Technologies Used
+* **React**: The core logic of the application is implemented using React, handling all user interactions and dynamic updates.
+* **JavaScript**: Handles various functionalities and API requests.
+* **HTML**: Provides the structure of the web application, including input fields and display areas.
+* **CSS**: Styles the application, offering an aesthetically pleasing and responsive design that adapts to various screen sizes.
+* **JSX**: Combines JavaScript and HTML-like syntax for React components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# How It Works
+1. **User Interface**:
+    * The main interface presents an input space for entering the name of the place you want to see the weather for.
+    * The display area shows the place, country, day and time, temperature, and overall weather conditions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Getting Weather Information**:
+    * Enter the name of the place in the input field.
+    * Click the "Get Weather" button to query the OpenWeatherMap API.
+    * The weather information is displayed dynamically, and the background changes according to the weather conditions.
 
-### `npm test`
+3. **Viewing Weather Information**:
+    * All relevant weather information is displayed, including place, country, day and time, temperature, and overall weather conditions.
+    * The background dynamically changes to reflect the weather conditions, providing an immersive experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Guidelines
+## Setup
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/hungrycarpet/React-Projects.git
+    ```
+2. **Navigate to the Project Directory**:
+    ```bash
+    cd Weather-App
+    ```
+3. **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+4. **Start the Application**:
+    ```bash
+    npm start
+    ```
 
-### `npm run build`
+## Project Structure
+* `src/`: Contains all the source code, including components, services, and styles.
+* `public/`: Contains the public assets and the main `index.html` file.
+* `index.html`: The entry point for the web application.
+* Other typical React project files like `package.json`, `.gitignore`, etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Hot Weather Example 
+![Weather Application Interface](src/assets/screenshot-hot.png "Weather Application Interface")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Cold Weather Example 
+![Weather Application Interface](src/assets/screenshot-cold.png "Weather Application Interface")
 
-### `npm run eject`
+# Contact
+For any queries or feedback, please contact me at ***manasparasar@gmail.com***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# License
+MIT License
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Copyright (c) 2019 Manas Mishra
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
