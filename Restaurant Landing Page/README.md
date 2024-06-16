@@ -50,7 +50,7 @@ Welcome to Foodie, your go-to web application for exploring delicious food optio
     ```
 2. **Navigate to the Project Directory**:
     ```bash
-    cd Foodie-Landing-Page
+    cd Restaurant-Landing-Page
     ```
 3. **Install Dependencies**:
     ```bash
