@@ -70,7 +70,20 @@ Welcome to Foodie, your go-to web application for exploring delicious food optio
 
 ## Screenshots
 
-![Foodie Landing Page](assets/screenshot.png "Foodie Landing Page")
+### Home
+![Foodie Landing Page](src/assets/screenshot-home.png "Foodie Landing Page")
+
+### About
+![Foodie Landing Page](src/assets/screenshot-about.png "Foodie Landing Page")
+
+### How Does it Work
+![Foodie Landing Page](src/assets/screenshot-work.png "Foodie Landing Page")
+
+### Testimonials
+![Foodie Landing Page](src/assets/screenshot-testimonials.png "Foodie Landing Page")
+
+### Contacts and Footer
+![Foodie Landing Page](src/assets/screenshot-footer.png "Foodie Landing Page")
 
 ## Contact
 
