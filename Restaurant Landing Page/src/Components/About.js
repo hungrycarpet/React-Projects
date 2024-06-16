@@ -18,12 +18,10 @@ const About = () => {
           Food Is An Important Part Of A Balanced Diet
         </h1>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        At Foodie, our mission is to bring delicious, high-quality meals right to your doorstep with unparalleled convenience. We are passionate about food and committed to creating the best food delivery experience for our customers.
         </p>
         <p className="primary-text">
-          Non tincidunt magna non et elit. Dolor turpis molestie dui magnis
-          facilisis at fringilla quam.
+        Founded by food enthusiasts who were frustrated with the lack of quality food delivery options, Foodie was born out of a desire to provide a superior food delivery service. Today, we partner with hundreds of top-rated restaurants to ensure that our customers have access to a wide variety of delicious meals, anytime they want.
         </p>
         <div className="about-buttons-container">
           <button className="secondary-button">Learn More</button>

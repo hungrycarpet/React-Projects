@@ -89,6 +89,9 @@ nav {
   /* line-height: 5rem; */
   max-width: 600px;
 }
+#imp{
+  text-align: center;
+}
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
   max-width: 500px;

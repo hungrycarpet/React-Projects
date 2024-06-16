@@ -8,17 +8,17 @@ const Work = () => {
     {
       image: PickMeals,
       title: "Pick Meals",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      text: "Browse through a wide variety of restaurants and cuisines to find your favorite dishes. Add them to your cart with just a few clicks",
     },
     {
       image: ChooseMeals,
       title: "Choose How Often",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      text: "Decide how frequently you want your meals delivered. Whether it's a one-time order or a regular delivery schedule, we've got you covered.",
     },
     {
       image: DeliveryMeals,
       title: "Fast Deliveries",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Our efficient delivery system ensures your meals are delivered fresh and fast. Track your order in real-time and enjoy your food without any hassle",
     },
   ];
   return (
@@ -26,9 +26,9 @@ const Work = () => {
       <div className="work-section-top">
         <p className="primary-subheading">Work</p>
         <h1 className="primary-heading">How It Works</h1>
+        <h2 className="primary-text">Simple, Fast, and Reliable</h2>
         <p className="primary-text">
-          Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-          elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+        Ordering your favorite meals through Foodie is as easy as 1-2-3. Follow these simple steps to enjoy delicious food delivered to your door.
         </p>
       </div>
       <div className="work-section-bottom">

@@ -14,11 +14,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Food Delivered Hot & Fresh
+          Delicious Meals, Delivered to Your Doorstep
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+          At Foodie, we believe that great food should be accessible to everyone, anytime and anywhere. Whether you're craving a quick snack or a gourmet meal, our extensive network of restaurants ensures that you can find exactly what you're looking for.
           </p>
           <button className="secondary-button">
             Order Now <FiArrowRight />{" "}
